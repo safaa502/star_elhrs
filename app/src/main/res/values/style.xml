@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Style personnalisé pour le menu -->
+        <item name="android:itemBackground">#000080</item> <!-- Bleu marine -->
+    </style>
+    <style name="RedRatingBar" parent="@android:style/Widget.Material.RatingBar">
+        <item name="android:textColor">#000080</item> <!-- Bleu marine -->
+        <item name="android:textStyle">bold</item> <!-- Gras -->
+        <item name="android:progressTint">@android:color/holo_red_light</item> <!-- Rouge -->
+    </style>
+    <style name="BlueMarineText">
+        <item name="android:textColor">#000080</item> <!-- Bleu marine -->
+        <item name="android:textStyle">bold</item> <!-- Gras -->
+    </style>
+    <style name="BlueMarineMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:itemBackground">#000080</item> <!-- Bleu marine -->
+    </style>
+</resources>
